@@ -1,0 +1,35 @@
+name: Add to Ignite Project
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  add-to-project:
+    name: Add issue to Ignite GitHub Project
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add to project
+        uses: actions/add-to-project@v1.0.2
+        with:
+          project-url: ${{ vars.IGNITE_PROJECT_URL || 'https://github.com/orgs/microsoft/projects/1' }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+  label_issues:
+    name: Apply labels to new issues
+    runs-on: ubuntu-latest
+    steps:
+      - name: Label new issues
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { issue } = context.payload;
+            const labels = ['triage', 'ignite'];
+            
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              labels: labels
+            });
