@@ -122,13 +122,13 @@ markdown_extensions:
 # Navigation  ...............................................
 nav:
   - Home: README.md
-  - Lab:
-    - Welcome: 01-Lab/1-Welcome.md
-    - Verify and Explore PetClinic Locally: 01-Lab/2-Verify-and-Explore-PetClinic-Locally.md
-    - Application Modernization: 01-Lab/3-Application-Modernization.md
-    - Take Action on Findings: 01-Lab/4-Take-Action- on-Findings.md
-    - Generate Containerization Assets With AI: 01-Lab/5-Generate-Containerization-Assets-With-AI.md
-    - Deploy To AKS: 01-Lab/6-Deploy-To-AKS.md
+  - Instructions:
+    - Welcome: 01-Instructions/1-Welcome.md
+    - Verify and Explore PetClinic Locally: 01-Instructions/2-Verify-and-Explore-PetClinic-Locally.md
+    - Application Modernization: 01-Instructions/3-Application-Modernization.md
+    - Take Action on Findings: 01-Instructions/4-Take-Action-on-Findings.md
+    - Generate Containerization Assets With AI: 01-Instructions/5-Generate-Containerization-Assets-With-AI.md
+    - Deploy To AKS: 01-Instructions/6-Deploy-To-AKS.md
     - Workshop Recap: 01-Lab/7-Workshop-Recap.md
     - Next Steps: 01-Lab/8-Next-Steps.md
   - Troubleshooting: 02-Troubleshooting/Troubleshooting.md
