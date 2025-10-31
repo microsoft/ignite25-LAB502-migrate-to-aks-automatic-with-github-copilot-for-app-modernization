@@ -19,15 +19,15 @@
 
 
 # Project information .........................................
-site_name: "Session Title"
+site_name: "Migrate to AKS Automatic with GitHub Copilot for App Modernization"
 site_url: 
-site_author: Content Creator
+site_author: Diego Casati, Ken Kilty
 site_description: >-
-  Demo mkdocs for Ignite Repos
+  Lab502: Migrate to AKS Automatic with GitHub Copilot for App Modernization
 
 # Repository ..................................................
-repo_name: microsoft/Ignite25-Repo-Template
-repo_url: https://github.com/microsoft/Ignite25-Repo-Template
+repo_name: microsoft/ignite25-LAB502-migrate-to-aks-automatic-with-github-copilot-for-app-modernization
+repo_url: https://github.com/microsoft/ignite25-LAB502-migrate-to-aks-automatic-with-github-copilot-for-app-modernization
 
 # Copyright ...................................................
 copyright: >
@@ -121,3 +121,14 @@ markdown_extensions:
 
 # Navigation  ...............................................
 nav:
+  - Home: README.md
+  - Lab:
+    - Welcome: 01-Lab/1-Welcome.md
+    - Verify and Explore PetClinic Locally: 01-Lab/2-Verify-and-Explore-PetClinic-Locally.md
+    - Application Modernization: 01-Lab/3-Application-Modernization.md
+    - Take Action on Findings: 01-Lab/4-Take-Action- on-Findings.md
+    - Generate Containerization Assets With AI: 01-Lab/5-Generate-Containerization-Assets-With-AI.md
+    - Deploy To AKS: 01-Lab/6-Deploy-To-AKS.md
+    - Workshop Recap: 01-Lab/7-Workshop-Recap.md
+    - Next Steps: 01-Lab/8-Next-Steps.md
+  - Troubleshooting: 02-Troubleshooting/Troubleshooting.md

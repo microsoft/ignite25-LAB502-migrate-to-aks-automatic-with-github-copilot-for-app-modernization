@@ -1,28 +1,17 @@
-# Welcome
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus sit amet elit ut dignissim. Cras quis sollicitudin urna, vel elementum lorem. Quisque volutpat mauris orci, eu imperdiet tortor sagittis in. Nunc ac augue non ipsum placerat luctus vel vel metus. Praesent ut mauris mauris. Proin vehicula mauris et lectus gravida, sit amet rhoncus leo tincidunt. Aliquam ac lectus eleifend lorem gravida porttitor eget vitae magna. Aenean elementum turpis sit amet massa luctus, sit amet aliquam libero congue.
-
 ## Introduction
 
-Donec id augue a est auctor sodales. In molestie volutpat ante, et scelerisque erat aliquam eleifend. Aliquam erat volutpat. Etiam turpis ex, accumsan nec nibh non, suscipit laoreet dui. Fusce finibus pulvinar erat ut vehicula. Donec a tincidunt ante, quis ultricies massa. Phasellus consectetur nunc vel elit lacinia auctor. 
+This workshop demonstrates how to migrate and modernize the iconic **Spring Boot PetClinic** application from local execution to **Azure AKS Automatic**. You'll experience the complete modernization journey using AI-powered tools such as **GitHub Copilot app modernization** and **Containerization Assist MCP Server**.
 
-## View these docs in your browser
+---
 
-This repo is configured to let you optionally browse the [documentation](./docs/) served locally with [MkDocs](https://www.mkdocs.org/).  
+## Workshop Overview
 
-Please follow these steps to view the docs with MkDocs.
+### Learning Objectives
 
-1. Install the `mkdocs-material` package
-    ```bash
-    pip install mkdocs-material
-    ```
+By the end of this workshop, you will be able to:
 
-2. Run the `mkdocs serve` command from the root folder
-    ```bash
-    mkdocs serve
-    ```
-If you're running this repo in a GitHub Codespace, then you should be able to skip step 1.
-
-
-
-
+- Run [Spring Boot PetClinic](https://github.com/spring-projects/spring-petclinic) locally with PostgreSQL and basic authentication.  
+- Modernize the codebase using [GitHub Copilot app modernization](https://marketplace.visualstudio.com/items?itemName=vscjava.migrate-java-to-azure).  
+- Migrate the database to [Azure PostgreSQL Flexible Server](https://learn.microsoft.com/azure/postgresql/flexible-server/) integrated with [Microsoft Entra ID](https://learn.microsoft.com/en-us/azure/active-directory/).  
+- Containerize the app using [Containerization Assist MCP Server](https://github.com/Azure/containerization-assist).  
+- Deploy to [AKS Automatic](https://learn.microsoft.com/en-us/azure/aks/intro-aks-automatic) using [Workload Identity](https://learn.microsoft.com/en-us/azure/aks/workload-identity-overview) and [Service Connector](https://learn.microsoft.com/en-us/azure/service-connector/).
