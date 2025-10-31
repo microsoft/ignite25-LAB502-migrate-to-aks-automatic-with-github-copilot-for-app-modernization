@@ -1,99 +1,39 @@
-# Welcome Ignite 2025 Creators!
-
-Thanks for creating content for Ignite!  Please follow this guidance so all ignite repos have the same look and feel.
-
-## How to contact Skillable?
-
-If you have issues with the Skillable environment, please follow these steps:
-
-1. Open an issue in the [Issues](../../issues) tab using the `New issue` button.
-1. Describe the problem, be descriptive, use screenshots if possible etc.
-1. Tag the following Skillable employees:
-   - @kylerosenthal
-   - @TubaMikeBob
-   - @Naimjones16
-   - @jmbauf
-1. Have all the discussions related to the issue in the issue itself.
-1. Once the issue is resolved, please mark it as Closed.
-
-## Put your docs in the docs folder
-
-This repo is configured for a user to view the docs through mkdocs.
-
-1. update the `mkdocs.yml` file to reference your session. Look particularly for the `site_name`, `site_author`, and `repo_name` tags.
-1. Subfolders in the docs folder will show up as tabs in the navigation bar.
-
-## Guidance
-
-1. Do not turn on github pages for this repo, traffic to github pages isn't captured in our metrics.
-1. Do not store slides or recordings in this repo
-
-## Update the badges!
-
-1. if the foundry discord and github links aren't appropriate for your session you can remove or change them.
-2. See shields.io for how to build your own dynamic or static badge for your community destinations, or other sample repos for how they've done
-3. Please limit your repo to one row of badges under the session title.
-
-## MCP Server
-1. This repo has an mcp.json file and is configured to let agents connect to the Learn MCP Server.
-
-> **Important** Make sure to avoid hardcoding sensitive information like API keys and other credentials by using input variables or environment files.
-
-
-## Update this readme below
-
-1. Fill out the content in this file, below the banner graphic, including the session code.
-2. Please embed links to Learn with your campaign codes!
-3. Add resources for your session to the Resources and Next Steps table
-4. Change the Content Owner section to your info
-5. Change the placeholder session code BRKXXX to your session code.
-
-## Improve SEO
-
-1. Update the Repo Info for this repo 
-    1. Click the gear icon⚙️ in the upper right.
-    1. Set a good description of this repo.
-    1. Add the technologies that you're using in this session.
-
-## Questions?
-
-Send them to [Mike Kinsman](mailto:mikki@microsoft.com) and [Laurent Bugnion](lbugnion@microsoft.com), or surface your question through your content leads.  We are also monitoring issues logged in the repos.
-
-## Finished?
-
-- Remove the folders that you don't need or didn't use, *please don't leave them empty with placeholder readmes*
-- Delete this line and everything above it!
-
 <p align="center">
 <img src="img/Banner-ignite-25.png" alt="decorative banner" width="1200"/>
 </p>
 
 # [Microsoft Ignite 2025](https://ignite.microsoft.com)
 
-## 🔥BRKXXX: Migrate to AKS Automatic with GitHub Copilot for App Modernization
+## LAB502: Migrate to AKS Automatic with GitHub Copilot for App Modernization
 
 [![Microsoft Azure AI Foundry Discord](https://dcbadge.limes.pink/api/server/ByRwuEEgH4)](https://discord.com/invite/ByRwuEEgH4)
 [![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=adff2f&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ### Session Description
 
-*Add Session Description*
+Learn how to modernize and migrate a legacy Spring Boot application to Azure Kubernetes Service (AKS) Automatic using AI-powered tools. This hands-on lab demonstrates the complete journey from local development to cloud deployment, leveraging GitHub Copilot for app modernization to assess code, implement secure authentication patterns, and automate containerization. You'll gain practical experience migrating from traditional password-based authentication to modern Entra ID with workload identity, while deploying to AKS Automatic with built-in security and operational best practices.
 
-### 🧠 Learning Outcomes
+### Learning Outcomes
 
 By the end of this session, learners will be able to:
 
--  
--
--
+- Use GitHub Copilot app modernization to assess Spring Boot applications for cloud readiness and identify migration opportunities
+- Migrate from self-hosted PostgreSQL to Azure Database for PostgreSQL Flexible Server with Entra ID authentication
+- Implement passwordless authentication using Azure Workload Identity and Service Connector
+- Generate production-ready Docker and Kubernetes manifests using AI-powered containerization tools
+- Deploy containerized applications to AKS Automatic with enterprise-grade security and monitoring
 
-### 💻 Technologies Used
+### Technologies Used
 
-1.
-1.
-1.
+1. [Azure Kubernetes Service (AKS) Automatic](https://learn.microsoft.com/azure/aks/intro-aks-automatic)
+1. [GitHub Copilot App Modernization](https://marketplace.visualstudio.com/items?itemName=vscjava.migrate-java-to-azure)
+1. [Azure Database for PostgreSQL Flexible Server](https://learn.microsoft.com/azure/postgresql/flexible-server/)
+1. [Azure Workload Identity](https://learn.microsoft.com/azure/aks/workload-identity-overview)
+1. [Azure Service Connector](https://learn.microsoft.com/azure/service-connector/)
+1. [Containerization Assist MCP Server](https://github.com/Azure/containerization-assist)
+1. [Spring Boot PetClinic](https://github.com/spring-projects/spring-petclinic)
 
-### 🌟 Microsoft Learn MCP Server
+### Microsoft Learn MCP Server
 
 [![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Microsoft_Docs_MCP-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect/mcp/install?name=microsoft.docs.mcp&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Flearn.microsoft.com%2Fapi%2Fmcp%22%7D)
 
@@ -103,13 +43,17 @@ For more information, setup instructions for other dev clients, and to post comm
 
 *Note: When you use the Learn MCP Server, you agree with [Microsoft Learn](https://learn.microsoft.com/en-us/legal/termsofuse) and [Microsoft API Terms](https://learn.microsoft.com/en-us/legal/microsoft-apis/terms-of-use) of Use.*
 
-### 📚 Resources and Next Steps
+### Resources and Next Steps
 
 | Resources          | Links                             | Description        |
 |:-------------------|:----------------------------------|:-------------------|
 | Ignite 2025 Next Steps | [https://aka.ms/Ignite25-Next-Steps](https://aka.ms/Ignite25-Next-Steps?ocid=ignite25_nextsteps_cnl) | Links to all repos for AI Tour 26 Sessions |
-| Azure AI Foundry Community Discord | [![Microsoft Azure AI Foundry Discord](https://dcbadge.limes.pink/api/server/ByRwuEEgH4)](https://discord.com/invite/ByRwuEEgH4)| Connect with the Azure AI Foundry Community! |
+| AKS Community Calls | [https://blog.aks.azure.com/webinars/](https://blog.aks.azure.com/webinars/) | Connect with the AKS Community! |
 | Learn at Ignite | [https://aka.ms/LearnAtIgnite](https://aka.ms/LearnAtIgnite?ocid=ignite25_nextsteps_github_cnl) | Continue learning on Microsoft Learn |
+| AKS Labs | [https://azure-samples.github.io/aks-labs/](https://azure-samples.github.io/aks-labs/) | Interactive AKS learning experiences |
+| AKS Automatic Documentation | [https://learn.microsoft.com/azure/aks/intro-aks-automatic](https://learn.microsoft.com/azure/aks/intro-aks-automatic) | Deep dive into automatic cluster management |
+| AKS Engineering Blog | [https://blog.aks.azure.com/](https://blog.aks.azure.com/) | Stay updated with latest AKS features and patterns |
+| Azure Global Black Belt Blogs | [https://azureglobalblackbelts.com/](https://azureglobalblackbelts.com/) | Technical insights and best practices from Azure experts |
 
 ## Content Owners
 
@@ -120,19 +64,18 @@ For more information, setup instructions for other dev clients, and to post comm
 
 <table>
 <tr>
-    <td align="center"><a href="http://github.com/mikekinsman">
-        <img src="https://github.com/mikekinsman.png" width="100px;" alt="INSERT NAME HERE"
+    <td align="center"><a href="http://github.com/dcasati">
+        <img src="https://github.com/dcasati.png" width="100px;" alt="Diego Casati"
 "/><br />
-        <sub><b> INSERT NAME HERE
+        <sub><b> Diego Casati
 </b></sub></a><br />
-            <a href="https://github.com/mikekinsman" title="talk">📢</a> 
+            <a href="http://github.com/dcasati" title="talk">📢</a> 
     </td>
-    <td align="center"><a href="http://github.com/mikekinsman">
-        <img src="https://github.com/mikekinsman.png" width="100px;" alt="INSERT NAME HERE
-"/><br />
-        <sub><b>INSERT NAME HERE
+    <td align="center"><a href="https://github.com/KenKilty">
+        <img src="https://github.com/KenKilty.png" width="100px;" alt="Ken Kilty"/><br />
+        <sub><b> Ken Kilty
 </b></sub></a><br />
-            <a href="https://github.com/mikekinsman" title="talk">📢</a> 
+            <a href="https://github.com/KenKilty" title="talk">📢</a> 
     </td>
 </tr></table>
 
