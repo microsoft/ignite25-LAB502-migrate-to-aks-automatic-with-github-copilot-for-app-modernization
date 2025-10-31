@@ -1,4 +1,3 @@
-
 ## Verify and Explore PetClinic Locally
 
 **What You'll Do:** Confirm that the locally deployed PetClinic application is running with PostgreSQL, and explore its main features.

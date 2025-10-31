@@ -1,4 +1,4 @@
-### Next Steps & Learning Paths
+## Next Steps & Learning Paths
 
 **Continue Your Azure Journey:**
 

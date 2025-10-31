@@ -1,6 +1,36 @@
-## Welcome to Your Lab Environment
+## Setting Up the Lab
 
-### Setting Up the Lab
+### Prerequisites Check
+
+Ensure you have the following tools installed before starting this lab:
+
+- [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)  
+- [Java 17 or 21](https://learn.microsoft.com/en-us/java/openjdk/download) (Microsoft OpenJDK)  
+- [Maven 3.8+](https://maven.apache.org/install.html)  
+- [Docker Desktop](https://www.docker.com/)  
+- [Visual Studio Code](https://code.visualstudio.com/) with:  
+  - Java Extension Pack  
+  - GitHub Copilot App Modernization Extension Pack  
+- [kubectl](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-cli#install-the-azure-cli-and-kubernetes-cli)  
+- Windows Terminal with Bash (WSL)  
+- Git
+
+### Register Azure Resource Providers
+
+Before starting the lab, you must register the required Azure resource providers:
+
+```bash
+az provider register --namespace Microsoft.Quota
+az provider register --namespace Microsoft.OperationsManagement
+az provider register --namespace Microsoft.PolicyInsights
+az provider register --namespace Microsoft.Compute
+az provider register --namespace Microsoft.ContainerService
+az provider register --namespace Microsoft.Insights
+az provider register --namespace Microsoft.DBforPostgreSQL
+az provider register --namespace Microsoft.ContainerRegistry
+az provider register --namespace Microsoft.ServiceLinker
+az provider register --namespace Microsoft.KubernetesConfiguration
+```
 
 #### Sign In to Azure
 

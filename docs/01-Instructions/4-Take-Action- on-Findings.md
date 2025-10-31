@@ -1,4 +1,4 @@
-### Take Action on Findings
+## Take Action on Findings
 
 Based on the assessment findings, GitHub Copilot app modernization provides two types of migration actions to assist with modernization opportunities:
 

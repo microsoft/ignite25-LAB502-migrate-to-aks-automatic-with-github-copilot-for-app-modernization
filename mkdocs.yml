@@ -123,7 +123,7 @@ markdown_extensions:
 nav:
   - Home: README.md
   - Instructions:
-    - Welcome: 01-Instructions/1-Welcome.md
+    - Welcome to Your Lab Environment: 01-Instructions/1-Welcome-to-Your-Lab-Environment.md
     - Verify and Explore PetClinic Locally: 01-Instructions/2-Verify-and-Explore-PetClinic-Locally.md
     - Application Modernization: 01-Instructions/3-Application-Modernization.md
     - Take Action on Findings: 01-Instructions/4-Take-Action-on-Findings.md
