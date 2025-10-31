@@ -13,7 +13,7 @@
 
 Learn how to modernize and migrate a legacy Spring Boot application to Azure Kubernetes Service (AKS) Automatic using AI-powered tools. This hands-on lab demonstrates the complete journey from local development to cloud deployment, leveraging GitHub Copilot for app modernization to assess code, implement secure authentication patterns, and automate containerization. You'll gain practical experience migrating from traditional password-based authentication to modern Entra ID with workload identity, while deploying to AKS Automatic with built-in security and operational best practices.
 
-### 🧠 Learning Outcomes
+### Learning Outcomes
 
 By the end of this session, learners will be able to:
 
@@ -23,7 +23,7 @@ By the end of this session, learners will be able to:
 - Generate production-ready Docker and Kubernetes manifests using AI-powered containerization tools
 - Deploy containerized applications to AKS Automatic with enterprise-grade security and monitoring
 
-### 💻 Technologies Used
+### Technologies Used
 
 1. [Azure Kubernetes Service (AKS) Automatic](https://learn.microsoft.com/azure/aks/intro-aks-automatic)
 1. [GitHub Copilot App Modernization](https://marketplace.visualstudio.com/items?itemName=vscjava.migrate-java-to-azure)
@@ -33,7 +33,7 @@ By the end of this session, learners will be able to:
 1. [Containerization Assist MCP Server](https://github.com/Azure/containerization-assist)
 1. [Spring Boot PetClinic](https://github.com/spring-projects/spring-petclinic)
 
-### 🌟 Microsoft Learn MCP Server
+### Microsoft Learn MCP Server
 
 [![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Microsoft_Docs_MCP-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect/mcp/install?name=microsoft.docs.mcp&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Flearn.microsoft.com%2Fapi%2Fmcp%22%7D)
 
@@ -43,7 +43,7 @@ For more information, setup instructions for other dev clients, and to post comm
 
 *Note: When you use the Learn MCP Server, you agree with [Microsoft Learn](https://learn.microsoft.com/en-us/legal/termsofuse) and [Microsoft API Terms](https://learn.microsoft.com/en-us/legal/microsoft-apis/terms-of-use) of Use.*
 
-### 📚 Resources and Next Steps
+### Resources and Next Steps
 
 | Resources          | Links                             | Description        |
 |:-------------------|:----------------------------------|:-------------------|
